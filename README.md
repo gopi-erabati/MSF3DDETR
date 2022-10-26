@@ -17,10 +17,10 @@ Our implementation is based on MMDetection3D.
 
 | Image Backbone | LiDAR Backbone | mAP | NDS | Weights |
 | :---------: | :---------: | :----: |:----: | :------: |
-| ResNet101 w/ DCN | VoxelNet | 60.6 | 66.7 | Model() |
-| ResNet101 w/ DCN | PointPillars | 54.5 | 61.4 | Model() |
-| ResNet50 w/ DCN | VoxelNet | 59.5 | 66.0 | Model() |
-| ResNet50 w/ DCN | PointPillars | 53.1 | 59.6 | Model |
+| ResNet101 w/ DCN | VoxelNet | 60.6 | 66.7 | [Model](https://drive.google.com/file/d/12ohqEgSqLNbLwhGvsWlmuMFCTy9wJpDu/view?usp=sharing) |
+| ResNet101 w/ DCN | PointPillars | 54.5 | 61.4 | [Model](https://drive.google.com/file/d/1o4JoLX4TuwP7jDHTsIjIf_XpC-J5JStg/view?usp=sharing) |
+| ResNet50 w/ DCN | VoxelNet | 59.5 | 66.0 | [Model](https://drive.google.com/file/d/10bt6xvrG0yJ-sIkxave33BIwO-6sFz8C/view?usp=sharing) |
+| ResNet50 w/ DCN | PointPillars | 53.1 | 59.6 |  |
 
 ## Usage
 
@@ -46,7 +46,7 @@ cd MSF3DDETR
 
 ### Training
 
-1. Download the [backbone pretrained weights]() to `ckpts/`
+1. Download the [backbone pretrained weights](https://drive.google.com/drive/folders/1AA-QuhJzLW-t-1CXCkJjXXr-75oTrNL4?usp=sharing) to `ckpts/`
 2. Add the present working directory to PYTHONPATH `export PYTHONPATH=$(pwd):$PYTHONPATH`
 3. To train the MSF3DDETR with ResNet101 and VoxelNet backbones on 2 GPUs, please run
 

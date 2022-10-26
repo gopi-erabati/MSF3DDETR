@@ -9,7 +9,7 @@ Our implementation is based on MMDetection3D.
 
 ![Pipeline](resources/msf3ddetr-Page-1.drawio.png)
 
-![ResultsVideo](https://youtu.be/F0rxAP1-a24)
+https://user-images.githubusercontent.com/22390149/198088289-23997a81-8826-41c2-9970-5b21b5e202a7.mov
 
 ## Results
 

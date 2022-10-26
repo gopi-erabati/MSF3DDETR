@@ -9,11 +9,11 @@ Our implementation is based on MMDetection3D.
 
 ![Pipeline](resources/msf3ddetr-Page-1.drawio.png)
 
+## Results
+
 ### Predictions
 
-![predictions](https://user-images.githubusercontent.com/22390149/198094691-b07eef52-8030-45db-b486-263138bbfb22.gif)
-
-## Results
+![predictions](https://user-images.githubusercontent.com/22390149/198097356-23f4de6b-ccca-4129-bdd2-6edf3cadbf54.gif)
 
 ### nuScenes Dataset
 

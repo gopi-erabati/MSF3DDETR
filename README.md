@@ -1,6 +1,6 @@
 # MSF3DDETR: Multi-Sensor Fusion 3D Detection Transformer for Autonomous Driving
 
-This is the official PyTorch implementation of the paper **MSF3DDETR: Multi-Sensor Fusion 3D Detection Transformer for Autonomous Driving**, by Gopi Krishna Erabati and Helder Araujo at *International Conference on Pattern Recognition Workshop (ICPRW 2022) Deep Learning for Visual Detection and Recognition (DLVDR2022)*.
+This is the official PyTorch implementation of the paper **[MSF3DDETR: Multi-Sensor Fusion 3D Detection Transformer for Autonomous Driving](https://arxiv.org/abs/2210.15316)**, by Gopi Krishna Erabati and Helder Araujo at *International Conference on Pattern Recognition Workshop (ICPRW 2022) Deep Learning for Visual Detection and Recognition (DLVDR2022)*.
 
 Our implementation is based on MMDetection3D.
 

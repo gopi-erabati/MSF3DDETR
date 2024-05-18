@@ -2,7 +2,11 @@
 
 This is the official PyTorch implementation of the paper **[MSF3DDETR: Multi-Sensor Fusion 3D Detection Transformer for Autonomous Driving](https://arxiv.org/abs/2210.15316)**, by Gopi Krishna Erabati and Helder Araujo at *International Conference on Pattern Recognition Workshop (ICPRW 2022) Deep Learning for Visual Detection and Recognition (DLVDR2022)*.
 
-Our implementation is based on MMDetection3D.
+**Contents**
+1. [Abstract](https://github.com/gopi-erabati/MSF3DDETR#abstract)
+2. [Results](https://github.com/gopi-erabati/MSF3DDETR#results)
+3. [Usage](https://github.com/gopi-erabati/MSF3DDETR#usage)
+4. [Reference](https://github.com/gopi-erabati/MSF3DDETR#reference)
 
 ## Abstract
 3D object detection is a significant task for autonomous driving. Recently with the progress of vision transformers, the 2D object detection problem is being treated with the set-to-set loss. Inspired by these approaches on 2D object detection and an approach for multi-view 3D object detection DETR3D, we propose MSF3DDETR: Multi-Sensor Fusion 3D Detection Transformer architecture to fuse image and LiDAR features to improve the detection accuracy. Our end-to-end single-stage, anchor-free and NMS-free network takes in multi-view images and LiDAR point clouds and predicts 3D bounding boxes. Firstly, we link the object queries learnt from data to the image and LiDAR features using a novel MSF3DDETR cross-attention block. Secondly, the object queries interacts with each other in multi-head self-attention block. Finally, MSF3DDETR block is repeated for L number of times to refine the object queries. The MSF3DDETR network is trained end-to-end on the nuScenes dataset using Hungarian algorithm based bipartite matching and set-to-set loss inspired by DETR. We present both quantitative and qualitative results which are competitive to the state-of-the-art approaches.

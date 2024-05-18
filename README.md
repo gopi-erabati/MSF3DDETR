@@ -44,6 +44,8 @@ The code is tested on the following configuration:
 ### Data
 Follow [MMDetection3D](https://mmdetection3d.readthedocs.io/en/latest/data_preparation.html) to prepare the nuScenes dataset and symlink the data directory to `data/` folder of this repository.
 
+Note: Please use mmdet3d==0.18.0 version for data processing!
+
 ### Clone the repository
 ```
 git clone https://github.com/gopi231091/MSF3DDETR.git
